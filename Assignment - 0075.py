@@ -5,7 +5,7 @@ length=len(fibonacci)
 
 while fibonacci[length-1] != 55 :
     fibonacci.append(fibonacci[length-2] + fibonacci[length-1])
-    length = len(fibonacci) 
+    length += 1 
    
 print("fibonacci →",fibonacci[1:])
 
